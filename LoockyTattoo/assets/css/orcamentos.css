@@ -1,0 +1,44 @@
+.valid {
+    padding: 10px 110px 10px 10px;
+    height: 121px;
+    background-color: #4e0505;
+    border: none;
+    color: #FFFFFF;
+    border-color: #468C00;
+    border-width: 1px ;
+   font-size: 12pt;
+    border-style: solid;
+}
+
+.form {
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+}
+
+.validselect {
+   padding: 10px 110px 10px 10px;
+   height: 60px;
+   background-color: #4e0505;
+   border: none;
+   color: #FFFFFF;
+   border-color: #468C00;
+   border-width: 1px ;
+   margin: 10px 0;
+  font-size: 12pt;
+   border-style: solid;
+}
+
+.validinput {
+   padding: 10px 130px 10px 10px;
+   height: 45px;
+   background-color: #4e0505;
+   border: none;
+   color: #FFFFFF;
+   border-color: #468C00;
+   border-width: 1px ;
+  font-size: 12pt;
+   border-style: solid;
+   display: flex;
+   margin: 10px 0;
+}
