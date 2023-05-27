@@ -1,0 +1,321 @@
+body {
+    background: #B6121D;
+}
+
+#slider {
+    width: 100%;
+    height: 900px;
+}
+.slider-img {
+    width: 100%;
+    height: 900px;
+    background-image: url(/assets/img/index/slider-centro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.slider-img-somb {
+    width: 100%;
+    height: 900px;
+    background-color: #0000006B;
+    display: flex;
+    justify-content: center;
+}
+
+.msg1 {
+    width: 692px;
+    height: 129px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+    color: white;
+    font-family: "Chicle";
+    font-size: 40px;
+    text-align: center;
+    margin-top: 680px;
+}
+
+.img-mario-llax {
+    width: 100%;
+    min-height: 800px;
+    background-attachment: fixed;
+    background-image: url(/assets/img/index/parallax-1.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.descr1 {
+    width: 100%;
+    height: 381px;
+    background-color: #92E2FB;
+    display: flex;
+    align-items: center;
+}
+
+.texto-descr {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position-text {
+    width: 50%;
+}
+.position-text h1{
+    font-size: 40px;
+    font-family: "Arvo";
+}
+.position-text p{
+    margin-top: 45px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Rubik";
+}
+
+#galeria {
+    width: 241px;
+    height: 52px;
+    background-color: #92E2FB;
+    border-radius: 5px;
+    margin-top: 17px;
+    margin-left: 24px;    
+    font-family: "Arvo";
+    font-size: 40px;
+    text-align: center;
+}
+
+.galerias-ft {
+    width: 98%;
+    height: auto;
+    margin-top: 7px;
+    display: flex;
+    padding: 8px;
+    background-color: #92E2FB;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
+.poppins {
+    display: flex;
+    width: 50%;
+}
+
+.poppins1 {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+
+.about {
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.titulo-poppins {
+    padding: 25px;
+}
+.titulo-poppins h1{
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.titulo-poppins p{
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.galeria-ft-pt2 {
+    width: 98%;
+    height: 182px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    justify-content: space-between;
+    background-color: #92E2FB;
+}
+
+.poppins2 {
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.parag {
+    width: 80%;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.popp-art {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    height: 97%;
+    margin-left: 10px;
+}
+
+.galeria-ft-pt3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.galeria-ft-pt3-center {
+    width: 98%;
+    display: flex;
+    gap: 20px;
+    padding: 8px;
+    background-color: #92E2FB;
+}
+
+.nav-fotos {
+    display: flex;
+    gap: 20px;
+}
+
+.galeria-ft-pt4 {
+    width: 98%;
+    height: 182px;
+    display: flex;
+    justify-content: center;
+   background-color: #92E2FB;
+   padding: 8px;
+}
+
+.galeria-ft-pt4-fts {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+
+}
+
+.texto-rigth {
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.texto-rigth h1 {
+    font-size: 24px;
+
+}
+.texto-rigth p {
+    margin-top: 25px;
+    font-size: 15px;
+
+}
+
+.img-mario-llax2 {
+    width: 100%;
+    min-height: 800px;
+    background-attachment: fixed;
+    background-image: url(/assets/img/index/fundo-lax.png);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us {
+    width: 80%;
+    padding: 25px;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    color: red;
+}
+.about-us-text h1 {
+    margin-top: 150px;
+    font-family: "Arvo", 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+.about-us-text p {
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.coment-about {
+    width: 616px;
+    height: 124px;
+    margin-top: 150px;
+    background: rgba(17, 204, 216, 0.63);
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+    border-radius: 0px 25px 25px 25px;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+}
+.coment-about h4 {
+ margin-left: 65px;
+}
+.mario-costa {
+    position: absolute;
+    margin-left: -43px;
+    margin-top: -19px;
+}
+
+.estrela-mario {
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 60px;
+}
+
+
+#parallax-3 {
+    width: 100%;
+    height: 750px;
+    background-color: black;
+}
+
+
+footer {
+    width: 100%;
+    height: 430px;
+    background-color: #92E2FB;
+}
