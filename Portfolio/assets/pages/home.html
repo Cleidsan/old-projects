@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="/assets/css/home.css">
+   <link rel="stylesheet" href="/assets/css/geral.css">
+   <link rel="stylesheet" href="/assets/css/homeportrait.css" media="screen and (orientation:portrait) and (max-width: 390px)">
+   <link rel="stylesheet" href="/assets/css/fonts.css">
+</head>
+<body>
+   <div id="pagina-central">
+      <header>
+         <nav class="nav-bar">
+               <ul class="navbar-ul">
+                  <li class="nav-item"><a href="/assets/pages/home.html" class="link-item1">Home</a></li>
+                  <li class="nav-item"><a href="/assets/pages/projetos.html" class="link-item">Projetos</a></li>
+                  <li class="nav-item"><a href="/assets/pages/blogdev.html" class="link-item">Blog Dev</a></li>
+                  <li class="nav-item"><a href="/assets/pages/sobremim.html" class="link-item">Sobre Mim</a></li>
+                  <li class="nav-item"><a href="/assets/pages/contato.html" class="link-item">Contato</a></li>
+               </ul>
+            <div>
+               <a href="/assets/pages/cadastro.html"><button class="button-cl cadastro">CADASTRO</button></a>
+               <a href="/assets/pages/login.html"><button class="button-cl">LOGIN</button></a>
+            </div>
+            <div class="mobile-menu-icon">
+               <button onclick="menuShow()"><img src="/assets/img/geral/menu_white_36dp.svg" alt="" class="icon"></button>
+           </div>
+         </nav>
+      </header>
+      <div class="mobile-menu">
+         <ul id="mobile-menu-column" class="navbar-ul">
+            <li><a href="/assets/pages/home.html">Home</a></li>
+            <li><a href="/assets/pages/projetos.html">Projetos</a></li>
+            <li><a href="/assets/pages/blogdev.html">Blog Dev</a></li>
+            <li><a href="/assets/pages/sobremim.html">Sobre Mim</a></li>
+            <li><a href="/assets/pages/contato.html" class="link-item">Contato</a></li>
+         </ul>
+     </div>
+      <main>
+         <section id="padrao-section">
+            <div class="padrao-section-div">
+               <div class="primeira-section-titulos">
+                  <h3>Eu sou,</h3>
+                  <h1>Cleidsan Freire</h1>
+                  <h3 class="h3-1">Front-End Developer.</h3>
+                  <p>Gosto de criar produtos de Front-End sólidos e escaláveis com ótimas experiências de usuário.</p>
+               </div>
+               <img id="img-home-sumir" src="/assets/img/home/logo-1.png" alt="" width="700px" style="filter: drop-shadow(30px 10px 14px #4421dd);">
+            </div>
+         </section>
+         <section id="padrao-section">
+            <div class="padrao-section-div">
+               <div class="div-img-2">
+                  <img id="img-home-menor" class="img-2" src="/assets/img/home/Group-1.png" alt="" width="700px" style="filter: drop-shadow(8px 3px 10px #4421dd);">
+               </div>
+               <div class="segunda-section-titulos">
+                  <h3>Projeto Responsivel.</h3>
+                  <h1><span class="titulo-AM">A</span>rt<span class="titulo-AM">M</span>useum</h1>
+                  <h3 class="h3-1">Projeto Fictício de um Museum.</h3>
+                  <p>Trabalhando a resposabilidade de ajuste de tamanho, ajuste para Mobile.</p>
+                  <div id="button-center-preview">
+                     <a href="#"><button class="button-c2 cadastro1">Preview</button></a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="padrao-section">
+            <div class="padrao-section-div">
+                  <div class="segunda-section-titulos">
+                     <img id="img-home-menor" src="/assets/img/home/img3.png" alt="" width="500px" style="filter: drop-shadow(5px 1px 15px #fff);">
+                     <h3>contratar.</h3>
+                     <h1><span class="titulo-AM">C</span>ontrate&dash;<span class="titulo-AM">Me</span></h1>
+                     <h3 class="h3-1">Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam.</p>
+                     <div id="testendo">
+                        <a class="lado" style="text-decoration: none;" href="#"><button class="button-c2 cadastro2">Contrate&ndash;Me<img src="/assets/img/home/contratar.png" alt="" width="50px"></button></a>
+                     </div>
+                  </div>
+                  <img  id="img-home-sumir" src="/assets/img/home/contrate.png" alt="">
+            </div>
+         </section>
+      </main>
+      <footer></footer>
+   </div>
+   <script src="/assets/js/geral.js"></script>
+</body>
+</html>

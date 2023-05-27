@@ -1,0 +1,127 @@
+                       /* Configurações geral da pagina */
+            * {
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                background-color: black;
+            }
+            
+            #pagina-central {
+                width: 100%;
+                height: 0 auto;
+            }
+                        /* Configuração do Cabeçalho Menu */
+            .cabeçalho-menu {
+                display: flex;
+                height: 60px;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 12px;
+                border-bottom: 2px solid rgb(148, 125, 125);
+            }
+            
+            .cabeçalho-menu-div {
+                display: flex;
+                align-items: center;
+            }
+            
+            .cabeçalho-listas-ul {
+                display: flex;
+                list-style: none;
+                gap: 28px;
+            }
+            
+            .cabeçalho-links {
+                color: rgb(255, 255, 255);
+                font-family: Nunito;
+            }
+
+            .name-logo {
+               color: white;
+               font-family: Inter;
+               font-size: 50pt;
+            }
+
+            .name-logo:hover {
+               color: #6908a1;
+            }
+
+                        /* Configuração da Primeira Seçao */
+            .primeira-seçao {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-evenly;
+            }
+            
+            .primeira-seçao-titulo {
+                color: white;
+                font-family: Inter;
+                font-weight: 400;
+                font-size: 40pt;
+            }
+            
+            .primeira-seçao-subtitulo {
+                color: white;
+                font-family: Nunito;
+                font-weight: 400;
+                padding-top: 15px;
+            }
+            
+            .primeira-seçao-button {
+                width: 100px;
+                height: 40px;
+                margin-top: 15px;
+                border-radius: 15px;
+                color: white;
+                border: none;
+                background-color: #6908a19d;
+                font-family: Nunito; 
+                font-weight: 400;
+            }
+            
+            .primeira-seçao-button:hover {
+                background-color: #6908a1;
+                cursor: pointer;
+            }
+            .primeira-seçao-imagem {
+               width: 800px;
+               height: 500px;
+               margin-top: 30px;
+                border-radius: 20px;
+                background-position: center;
+                background-size: cover;
+            }
+                        /* Configuração da Segunda Seçao */
+            .segunda-seçao {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: white;
+            }
+            
+            .segunda-seçao-titulo {
+                padding-top: 38px;
+                border-top: 2px solid #947d7d;
+                font-family: Inter;
+            }
+            .segunda-seçao-info {
+                font-family: Nunito;
+                font-size: 15pt;
+            }
+            
+            .segunda-seçao-info:hover {
+                border-bottom: 0.4px solid white;
+            }
+                        /* Configuração da Rodapé */
+            .rodape {
+                border-top: 2px solid rgb(148, 125, 125);
+               padding-top: 15px;
+               margin-top: 20px;
+            }
+            
+            .rodape-image {
+                display: block;
+                margin: 0 auto;
+            }

@@ -1,0 +1,74 @@
+#central-saudacao {
+   width: auto;
+   height: 400px;
+   overflow: scroll;
+}
+
+#img-1 {
+   display: none;
+}
+
+.mt {
+   margin-top: 25px;
+}
+
+.post-fotos {
+   justify-content: center;
+   flex-wrap: wrap;
+   
+}
+
+.fotos-post1 {
+   width: 80%;
+   
+}
+
+.categorias {
+   display: block;
+   width: 100%;
+}
+footer {
+   height: 40px;
+}
+
+.img-categoria {
+   width: 80%;
+   margin: 0 auto;
+}
+/************************ CATEGORIAS BUTTON *********/
+
+.ind-cate-sumir {
+   display: block;
+ }
+
+ #sumir-categorias {
+   display: none;
+}
+
+#sumir-1 {display: block;}
+#sumir-1-1 {display: none;}
+#sumir-2 {display: block;}
+#sumir-2-2 {display: none;}
+#sumir-3 {display: block;}
+#sumir-3-3 {display: none;}
+
+#sm1 {display: none;}
+#sm2 {display: none;}
+#sm3 {display: none;}
+
+/************************ CATEGORIAS BUTTON *********/
+
+
+#central-posts {
+   width: auto;
+}
+
+#img-1-portrait {
+   width: 100%;
+   height: 200px;
+   border-radius: 10px;
+   background-position: center;
+   background-size: cover;
+   margin: auto;
+   display: block;
+}

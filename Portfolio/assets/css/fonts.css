@@ -1,0 +1,22 @@
+@font-face {
+   font-family: Inter;
+   src: url(/assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+   font-weight: bold;
+}
+
+@font-face {
+   font-family: Nunito;
+   src: url(/assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+h3 {
+   font-family: Nunito;
+}
+
+h1 {
+   font-family: Inter;
+}
+
+p {
+   font-family: Nunito;
+}

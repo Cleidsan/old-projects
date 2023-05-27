@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Freire Dev Blog</title>
+   <link rel="stylesheet" href="/assets/css/contato.css">
+   <link rel="stylesheet" href="/assets/css/fonts.css">
+   <link rel="stylesheet" href="/assets/css/geral.css">
+   <link rel="stylesheet" href="/assets/css/landscape.css" media="screen and (orientation:landscape) and (max-height: 500px)">
+</head>
+<body>
+   <div id="pagina-central">
+      <header>
+         <nav class="nav-bar">
+               <ul class="navbar-ul">
+                  <li class="nav-item"><a href="/assets/pages/home.html" class="link-item">Home</a></li>
+                  <li class="nav-item"><a href="/assets/pages/projetos.html" class="link-item">Projetos</a></li>
+                  <li class="nav-item"><a href="/assets/pages/blogdev.html" class="link-item">Blog Dev</a></li>
+                  <li class="nav-item"><a href="/assets/pages/sobremim.html" class="link-item">Sobre Mim</a></li>
+                  <li class="nav-item"><a href="/assets/pages/contato.html" class="link-item1">Contato</a></li>
+               </ul>
+            <div>
+               <a href="/assets/pages/cadastro.html"><button class="button-cl cadastro">CADASTRO</button></a>
+               <a href="/assets/pages/login.html"><button class="button-cl">LOGIN</button></a>
+            </div>
+            <div class="mobile-menu-icon">
+               <button onclick="menuShow()"><img src="/assets/img/geral/menu_white_36dp.svg" alt="" class="icon"></button>
+           </div>
+         </nav>
+      </header>
+      <div class="mobile-menu">
+         <ul id="mobile-menu-column" class="navbar-ul">
+            <li><a href="/assets/pages/home.html">Home</a></li>
+            <li><a href="/assets/pages/projetos.html">Projetos</a></li>
+            <li><a href="/assets/pages/blogdev.html">Blog Dev</a></li>
+            <li><a href="/assets/pages/sobremim.html">Sobre Mim</a></li>
+            <li><a href="/assets/pages/contato.html" class="link-item">Contato</a></li>
+         </ul>
+      </div>
+      <main id="conteudo">
+         <article id="saudacao">
+            <div id="central-saudacao">
+               <div id="textos-1">
+                  <div class="cadastrar">
+                     <h1>Contat<span style="color: #6908a1;">o</span></h1>
+                     <hr>
+                     <form action="#" class="form">
+                        <input type="text" class="input-form-1" placeholder="Nome Completo">
+                        <hr>
+                        <input type="text" class="input-form-1" placeholder="Usuário">
+                        <hr>
+                        <input type="email" class="input-form-1" placeholder="E-mail">
+                        <hr>
+                        <textarea name="comentario" id="" cols="30" rows="7" placeholder="Comentario"></textarea>
+                        <button class="button-cadastro">Enviar</button>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            </article>
+      </main>
+   </div>
+   <script src="/assets/js/buttons.js"></script>
+   <script src="/assets/js/geral.js"></script>
+</body>
+</html>

@@ -1,0 +1,310 @@
+*{
+   text-decoration: none;
+}
+.navbar-ul li .link-item1 {
+   color: #6908a1;
+   font-size: 18pt;
+}
+#pagina-central {
+   height: auto;
+   background-color: black;
+}
+/* MENU */
+/* CONTEUDO */
+#mostra-descr1{
+   display: none;
+}
+#mostra-descr2{
+   display: none;
+}
+#mostra-descr3{
+   display: none;
+}
+/* Section */ 
+#conteudo {
+   width: 100%;
+   height: auto;
+}
+#central-saudacao {
+   width: 45%;
+   height: auto;
+   display: flex;
+   background: linear-gradient(120deg, #cfcfcf5e, #6908a1);
+   border-radius: 10px;
+   padding: 20px;
+}
+#saudacao {
+   width: 100%;
+   display: flex;
+   margin-top: 35px;
+   justify-content: center;
+}
+#textos-1 {
+   text-align: center;
+   padding: 15px;
+   color: rgba(255, 255, 255, 0.658);
+   width: 100%;
+}
+#textos-1 h1 {
+   font-weight: bolder;
+   font-size: 25pt;
+}
+#textos-1 p {
+   font-weight: bolder;
+   font-size: 12pt;
+}
+#img-1 {
+   width: 80%;
+   height: 350px;
+   border-radius: 10px;
+   background-position: center;
+   background-size: cover;
+}
+.img-1-portrait {
+   display: none;
+}
+/* Section 2 */ 
+#sobre-mim {
+   width: 100%;
+   margin-top: 15px;
+   height: auto;
+}
+
+#central-sobre-mim {
+   text-align: center;
+   color: white;
+}
+.quem-sou-eu-div {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   background-color: transparent;
+}
+.quem-sou-eu-div:hover {
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   background-color: #4321dd4d;
+}
+
+ .hr {
+   width: 18%;
+   height: 5px;
+   display: flex;
+   margin: auto;
+   background-color: #6908a1;
+   border: none;
+   margin-top: 8px;
+}
+
+.img-sobre-mim {
+   width: 270px;
+   margin: 20px auto;
+   border-radius: 50%;
+   height: 270px;
+   border: 2px solid #6908a1;
+   background-image: url(/assets/img/devblog/logo-eu.jfif);
+   background-position: center;
+   background-size: cover;
+}
+.textos-posts-centro {
+   text-align: center;
+   color: white;
+}
+
+.textos-posts-centro h1 {
+   margin: 15px;
+}
+/* Section 3 */
+
+#posts {
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+}
+
+#central-posts {
+   width: 36%;
+}
+
+.post-fotos {
+   width: 100%;
+   margin-top: 25px;
+   padding: 7px;
+   display: flex;
+}
+
+.fotos-post1 {
+   width: 40%;
+   height: 225px;
+   border-radius: 8px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.textos-post h1, p {
+  margin-top: 10px;
+}
+
+.textos-post {
+   width: 60%;
+   text-align: center;
+   color: white;
+   padding: 0px 20px;
+}
+.h1 {
+   margin-top: 80px;
+   color: white;
+   text-align: center;
+}
+.categorias {
+   width: 100%;
+   height: 500px;
+   margin-top: 15px; 
+   display: flex;
+   justify-content: space-between;
+}
+.img-categoria {
+   width: 32%;
+   border-radius: 10px;
+   height: 500px;
+   color: white;
+   background-position: center;
+   background-size: cover;
+   transition: 2s;
+   transition: 1s;
+}
+
+.img-categoria:hover {
+   width: 80%;
+   transition: 3s;
+} 
+
+.img-categoria:hover {
+   background-position: center;
+   background-size: 150%;
+   transition: 2s;
+   cursor: pointer;
+
+}
+
+.img-categoria-hv{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   font-family: Inter, 'Times New Roman', Times, serif;
+   font-size: 15pt;
+}
+
+.img-categoria-hv:hover{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   font-size: 15pt;
+   color: #6908a1;
+   font-family: Inter, 'Times New Roman', Times, serif;
+   transition: 1s;
+   background-color: #4321dd4d;
+}
+.X {
+   font-size: 20pt;
+   color: rgb(255, 255, 255);
+   background-color: transparent;
+   justify-content: center;
+   border: none;
+   cursor: pointer;
+   padding: 0;
+   margin-left:  95%;
+}
+.X:hover {
+   color: #6908a1;
+}
+.name-hv {
+   color: white;
+   cursor: pointer;
+}
+.name-hv:hover {
+   color: #6908a1;
+}
+
+.hr2 {
+   width: 50%;
+   height: 5px;
+   display: flex;
+   margin: auto;
+   background-color: #6908a1;
+   border: none;
+   margin-top: 8px;
+}
+
+.saiba-mais-categorias {
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+   border: 2px solid #6908a1;
+   margin-top: 15px;
+   padding: 15px;
+   color: white;
+   background-color: #00000010;
+   border-radius: 10px;
+}
+
+.saiba-mais-button {
+   margin-top: 15px;
+   background-color: rgb(105, 8, 161, 0.5);
+   cursor: pointer;
+   border: none;
+   border-radius: 10px;
+   padding: 10px;
+}
+
+.saiba-mais-button a {
+   color: white;
+   font-size: 18p;
+   font: 10pt;
+}
+
+footer {
+   width: 100%;
+   height: 80px;
+}
+
+#ind-cate-0 {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.ind-cate-sumir {
+  display: none;
+}
+
+.cor {
+   width: 30%;
+   height: 35px;
+   line-height: 35px;
+   text-align: center;
+   color: white;
+   font-family: Inter, 'Times New Roman', Times, serif;
+   cursor: pointer;
+   border-radius: 15px;
+   background-color: #6908a1;
+   border: 2px solid #6908a1;
+
+}
+
+#ind-cate {
+   display: flex;
+   margin-top: 15px;
+   width: 80%;
+   height: 30px;
+   justify-content: center;
+   justify-content: space-between;
+}

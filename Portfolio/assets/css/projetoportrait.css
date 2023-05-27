@@ -1,0 +1,30 @@
+.padrao-section-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-2 {
+    margin: auto;
+    width: 350px;
+}
+
+p {
+    display: none;
+}
+
+h3 {
+    display: none;
+}
+
+.padrao-section-div h1 {
+    font-size: 30pt;
+}
+
+footer {
+    display: none;
+ }
+
+ .segunda-section-titulos {
+    color: white;
+    margin-left: 0px;
+ }

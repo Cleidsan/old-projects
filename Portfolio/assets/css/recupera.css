@@ -1,0 +1,106 @@
+
+#pagina-central {
+   background-color: black;
+   height: 100vh;
+}
+#conteudo{
+   width: 100%;
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* dark recup*/
+#dark-sumir {
+   width: 100%;
+}
+
+#dark-recup {
+   width: 100%;
+   height: 400px;
+   display: flex;
+   justify-content: center;
+}
+
+.div-dark-recup {
+   width: 45%;
+   height: 100%;
+   background-color: #35353581;
+   box-shadow: 8px 8px 20px #6908a1;
+   border: 2px solid #6908a1;
+   border-radius: 8px;
+   display: flex;
+   justify-content: center;
+}
+
+.mode-iconsuun {
+   width: 30px;
+   height: 30px;
+   margin-top: 50px;
+}
+
+.central-form-dark-recup {
+   width: 80%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.form-dark-recup {
+   width: 70%;
+   height: 100%;
+}
+
+.titulos-dark-recup {
+   display: flex;
+   justify-content: space-around;
+   font-size: 15pt;
+   color: white;
+   padding: 15px 50px;
+}
+.input-dark-recup {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+}
+.dark-recup-email {
+   width: 100%;
+   padding: 15px;
+   font-size: 15pt;
+   margin-top: 15px;
+   border: none;
+   color: white;
+   background-color: transparent;
+}
+
+#enviado-recup {
+   width: 100%;
+   height: 60px;
+   border: 1px solid gray;
+   line-height: 60px;
+   text-align: center;
+   border-radius: 5px;
+   font-size: 15pt;
+   margin-top: 20px;
+   background-color: #01f722b9;
+   display: none;
+}
+
+.parag-dark-recup {
+   margin-top: 15pt;
+   font-size: 11.3pt;
+   color: white;
+}
+
+.button-dark-recup {
+   margin: 35px 38%;
+   font-size: 15pt;
+   color: white;
+   width: 20%;
+   cursor: pointer;
+   padding: 13px; 
+   background-color: #35353581;
+   box-shadow: inset 0px 0px 15px #6908a1;
+   border: 2px solid #6908a1;
+}

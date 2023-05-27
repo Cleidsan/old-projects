@@ -1,0 +1,178 @@
+#conteudo {
+   width: 100%;
+   height: 100vh;
+   background-color: black;
+   display: flex;
+   align-items: center;
+}
+
+#sobre-mim {
+   width: 100%;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+}
+
+.sobre-min-central {
+   width: 80%;
+   height: 100%;
+   display: flex;
+   border-radius: 50px;
+   border: 2px solid #6908a1;
+   background-color: transparent;
+   box-shadow: inset 5px 2px 25px 5px #6908a1;
+   padding: 15px;
+}
+
+.sobre-mim-1 {
+   width: 70%;
+   height: 100%;
+   background-image: url(/assets/img/about-us/foto-1.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 50px 0px 0px 50px;
+   background-size: cover;
+}
+.sobre-mim-2 {
+   width: 30%;
+   height: 100%;
+   background-image: url(/assets/img/about-us/foto-2.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 0px 50px 50px 0px;
+   background-size: cover;
+}
+
+.hv-img {
+   width: 100%;
+   background-color: #6908a177;
+   border-radius: 0px 50px 50px 0px;
+   height: 100%;
+}
+
+.sobre-mim-3 {
+   width: 70%;
+   position: relative;
+   height: 85%;
+   box-shadow: inset 5px 2px 25px 5px #9109e0;
+   border-radius: 50px;
+   margin: 50px 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: white;
+   padding: 0px 80px 0px 80px;
+   justify-content: center;
+   font-size: 20px;
+   border: 2px solid #6908a1;
+   font-family: Inter;
+   background-color: #6908a1a1;
+}
+
+.hr {
+   border-bottom: 3px dashed violet;
+}
+
+.parag {
+   font-family: Nunito;
+}
+
+.p {
+   padding: 50px;
+}
+
+.sobre-mim-a{
+   display: flex;
+   gap: 50px;
+   
+}
+
+.sobre-mim-a div {
+   box-shadow: 0px 2px 0px 2px violet;
+   border-radius: 5px;
+   padding: 5px;
+}
+
+.sobre-mim-a a {
+   color: white;
+   text-decoration: none;
+}
+
+/************************ @MEDIA *************************/
+
+@media screen and (max-width: 1286px) {
+    #sobre-mim {
+        height: auto;
+        justify-content: initial;
+    }
+    .sobre-mim-2 {
+        display: none;
+    }
+    .sobre-mim-3 {
+        margin: 50px 75px;
+       
+    }
+    .sobre-mim-1 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 941px) {
+    .sobre-mim-3 {
+        margin: 50px 30px;
+    }
+   
+}
+@media screen and (max-width: 800px) {
+    .sobre-mim-1 {
+        background-image: none;
+    }
+   .sobre-min-central {
+    border: none;
+    box-shadow: none;
+   }
+   .p {
+    padding: 20px;
+   }
+}
+
+@media screen and (max-width: 800px) {
+    .sobre-mim-1 {
+        background-image: none;
+    }
+    .sobre-mim-1 {
+        position: none;
+    }
+   .sobre-min-central {
+    border: none;
+    box-shadow: none;
+   }
+   .p {
+    padding: 20px;
+   }
+}
+
+@media screen and (max-width: 390px) {
+    .sobre-min-central {
+        width: auto;
+        height: auto;
+    }
+
+    #conteudo {
+        padding: 0;
+        margin: 0;
+    }
+    .sobre-mim-3 {
+        padding: 0;
+        position: none;
+        overflow: visible;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        background-color: #6908a1;
+    }
+    .sobre-mim-a {
+         gap: 15px;
+        flex-wrap: wrap;
+    }
+}
+
